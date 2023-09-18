@@ -94,7 +94,7 @@ export default function DashboardPage() {
                 disabled={isLoading || !ready || !zeroDevReady}
                 className="text-sm bg-violet-600 hover:bg-violet-700 disabled:bg-violet-400 py-2 px-4 rounded-md text-white"
               >
-                {!isLoading ? "Mint NFT to Smart Wallet" : "Minting..."}
+                {!isLoading ? "Mint NFT without Gas" : "Minting..."}
               </button>
             </div>
 
